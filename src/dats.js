@@ -190,5 +190,28 @@ export const dataCard = [
 		"available": true,
 		"stock": 10,
 		"picture": "https://react-learning.ru/image-compressed/16.jpg"
-	}
+	},
+	{
+        "image": "http://dummyimage.com/400x200.png/5fa2dd/ffffff",
+        "likes": [],
+        "comments": [],
+        "tags": [
+            "legendary"
+        ],
+        "isPublished": true,
+        "_id": "622bd9e806c7d323b8ae4615",
+        "title": "Batman Beyond: Return of the Joker",
+        "author": {
+            "name": "Иван Иванов",
+            "about": "Писатель",
+            "avatar": "https://react-learning.ru/image-compressed/default-image.jpg",
+            "_id": "622bd81b06c7d323b8ae4614",
+            "email": "maxim_91@inbox.ru",
+            "__v": 0
+        },
+        "text": "Change Other Device on Right Upper Arm",
+        "created_at": "2022-03-11T23:23:20.891Z",
+        "updated_at": "2022-03-11T23:23:20.891Z",
+        "__v": 0
+    },
 ]

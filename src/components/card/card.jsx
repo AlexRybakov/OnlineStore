@@ -29,3 +29,19 @@ export function Card({name, price, discount, wight, description, picture, ...pro
   );
 }
 
+export function Card({image, likes, comments, tags, title, author, text, created_at, updated_at, ...props}) {
+
+  return (
+    <article className="card">
+
+        <a href="#" className="card__link">
+          <img src={image} className="card__image" />
+          <div className="card__desc">
+            <h3 className="card__wight">{author}</h3>
+            <h3 className="card__name">{title}</h3>
+          </div>
+        </a>
+    </article>
+  );
+}
+
