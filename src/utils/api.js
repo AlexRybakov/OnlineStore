@@ -37,7 +37,7 @@ class Api {
 
     setUserInfo({ name, about }) {
         return fetch(`${this.#baseurl}/users/me`, {
-            method: 'GET',
+            method: 'PATCH',
             headers: this.#headers,
             body: JSON.stringify({ name, about })
         })
@@ -50,6 +50,26 @@ class Api {
             headers: this.#headers,
         })
             .then(this.#onResponse)
+    }
+
+    getProductById(idProduct) {
+        return fetch(`${this.#baseurl}/products/${idProduct}`, {
+            headers: this.#headers
+        })
+            .then(this.#onResponse)
+    }
+
+    postReview(productId, data) {
+        return fetch(`${this.#baseurl}/products/review/${productId}`, {
+            method: 'POST',
+            headers: this.#headers,
+            body: JSON.stringify(data)
+        })
+            .then(this.#onResponse)
+    }
+
+    getInfoProduct(idProduct) {
+        return Promise.all([this.getProductById(idProduct), this.getUserInfo()])
     }
 }
 
