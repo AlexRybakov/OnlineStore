@@ -2,6 +2,7 @@
   "name": "codespaces-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.5",
@@ -30,8 +31,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy-gh": "cross-env PUBLIC_URL=./ REACT_APP_GH_PAGES=true npm run build && gh-pages -d build",
-    "deploy": "cross-env PUBLIC_URL=/ npm run build && scp -r ./build/* root@212.193.56.158:/home/sber/frontend"
+    "deploy-gh": "cross-env REACT_APP_GH_PAGES=true npm run build && gh-pages -d build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -54,6 +55,6 @@
   "devDependencies": {
     "@types/validator": "^13.7.17",
     "cross-env": "^7.0.3",
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^6.0.0"
   }
 }
