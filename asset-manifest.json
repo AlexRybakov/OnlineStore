@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.b76acb8b.css",
-    "main.js": "./static/js/main.092f8547.js",
+    "main.js": "./static/js/main.c3c43826.js",
     "static/media/gift.png": "./static/media/gift.287f6a5b9889d9e5a780.png",
     "static/media/set.png": "./static/media/set.c0ebf31f6e2c876650b2.png",
     "static/media/turkey.png": "./static/media/turkey.7acbe5a3476f1b308f4c.png",
@@ -29,9 +29,9 @@
     "static/media/save.svg": "./static/media/save.8bda7de03ef11d27358a941a2b907999.svg",
     "static/media/ic-mail.svg": "./static/media/ic-mail.57c29506c766ebbcb706.svg",
     "static/media/ic-close-input.svg": "./static/media/ic-close-input.f01e03cf609912dcdf78b1a91e354837.svg",
-    "index.html": "./index.html",
     "static/media/favorites.svg": "./static/media/favorites.38b3ed7ac5ebdf4b5b3dd05aa27f4106.svg",
     "static/media/user.svg": "./static/media/user.4704ef22068b3605cbc1cbfd573954a3.svg",
+    "index.html": "./index.html",
     "static/media/cart.svg": "./static/media/cart.36351405bb13de945ab1f9699d66d925.svg",
     "static/media/star.svg": "./static/media/star.3c809cd3e36dc4c950d3fcc8aff36982.svg",
     "static/media/ic-search.svg": "./static/media/ic-search.296528dfccff6373f75e8f75d02e833a.svg",
@@ -39,10 +39,10 @@
     "static/media/ic-left-arrow.svg": "./static/media/ic-left-arrow.1e142772a51d7a80402855c5344fb144.svg",
     "static/media/arrow.svg": "./static/media/arrow.652a32ff6b9be2d98d4b41c296d4f706.svg",
     "main.b76acb8b.css.map": "./static/css/main.b76acb8b.css.map",
-    "main.092f8547.js.map": "./static/js/main.092f8547.js.map"
+    "main.c3c43826.js.map": "./static/js/main.c3c43826.js.map"
   },
   "entrypoints": [
     "static/css/main.b76acb8b.css",
-    "static/js/main.092f8547.js"
+    "static/js/main.c3c43826.js"
   ]
 }
